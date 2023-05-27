@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+          <title>Araba İlanları</title>
+        </head>
+        <body>
+          <div class="navbar">
+            <ul>
+                <li><a href="#" class="logo">Logo</a></li>
+
+                
+              <li><a href="#">Anasayfa</a></li>
+              <li><a href="#">Arabalar</a></li>
+              <li><a href="#">İletişim</a></li>
+             </ul>
+          </div>
+          
+          <div class="secondary-navbar">
+            <ul>
+              <li><a href="#">Tüm İlanlar</a></li>
+              <li><a href="#">Resmi Satanlar</a></li>
+              <li><a href="#">Yedek Parçalar</a></li>
+              <li><button class="login-btn">Giriş Yap</button></li>
+              
+            </ul>
+          </div>
+          
+          <!-- Sayfa içeriği buraya gelecek -->
+          <div class="filters">
+            <h3>Filtreler</h3>
+            <div class="filter">
+              <label for="brand">Marka:</label>
+              <select id="brand">
+                <option value="all">Tümü</option>
+                <option value="bmw">BMW</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+                <option value="volvo">Volvo</option>
+                <option value="subaru">Subaru</option>
+                <option value="toyota">Toyota</option>
+                <option value="ford">Ford</option>
+                <option value="peugeot">Peugeot</option>
+                <option value="nissan">Nissan</option>
+                <option value="kia">Kia</option>
+                <option value="honda">Honda</option>
+                <option value="ford">Ford</option>
+                <option value="hyundai">hyundai</option>
+                <option value="vaz">Vaz</option>
+                <option value="volkswagen">volkswagen</option>
+                <option value="skoda">Skoda</option>
+                <option value="tesla">tesla</option>
+                <option value="chery">chery</option>
+                <option value="KAMaz">KAMaz</option>
+                
+
+                <!-- Diğer markalar -->
+              </select>
+            </div>
+            
+            <div class="filter">
+              <label for="model">Model:</label>
+              <select id="model">
+                <option value="all">Tümü</option>
+                <!-- Model seçenekleri -->
+              </select>
+            </div>
+            
+            <div class="filter">
+              <label for="price-min">Minimum Fiyat:</label>
+              <input type="number" id="price-min">
+            </div>
+            
+            <div class="filter">
+              <label for="price-max">Maksimum Fiyat:</label>
+              <input type="number" id="price-max">
+            </div>
+            
+            <div class="filter">
+              <label for="region">Bölge:</label>
+              <select id="region">
+                <option value="all">Tümü</option>
+                <option value="istanbul">İstanbul</option>
+                <option value="ankara">Ankara</option>
+                <!-- Diğer bölgeler -->
+              </select>
+            </div>
+            
+            <div class="filter">
+              <label for="payment">Ödeme Tipi:</label>
+              <select id="payment">
+                <option value="all">Tümü</option>
+                <option value="cash">Nakit</option>
+                <option value="credit">Kredi</option>
+              </select>
+            </div>
+            
+            <div class="filter">
+              <label for="year-min">Minimum Üretim Yılı:</label>
+              <input type="number" id="year-min">
+            </div>
+            
+            <div class="filter">
+              <label for="year-max">Maksimum Üretim Yılı:</label>
+              <input type="number" id="year-max">
+            </div>
+            
+            <div class="filter">
+              <label for="color">Renk:</label>
+              <select id="color">
+                <option value="all">Tümü</option>
+                <option value="white">Beyaz</option>
+                <option value="black">Siyah</option>
+                <!-- Diğer renkler -->
+              </select>
+            </div>
+            
+            <div class="filter">
+              <label for="transmission">Şanzıman:</label>
+              <select id="transmission">
+                <option value="all">Tümü</option>
+                <option value="manual">Manuel</option>
+                <option value="automatic">Otomatik</option>
+              </select>
+            </div>
+            
+            <div class="filter">
+              <label for="engine">Motor:</label>
+              <input type="text" id="engine">
+            </div>
+            
+            <div class="filter">
+              <label for="fuel-type">Yakıt Tipi:</label>
+              <select id="fuel-type">
+                <option value="all">Tümü</option>
+                <option value="gasoline">Benzin</option>
+                <option value="diesel">Dizel</option>
+                <!-- Diğer yakıt tipleri -->
+              </select>
+            </div>
+            
+            <div class="filter">
+              <label for="body-type">Kasa Tipi:</label>
+              <select id="body-type">
+                <option value="all">Tümü</option>
+                <option value="sedan">Sedan</option>
+                <option value="hatchback">Hatchback</option>
+                <!-- Diğer kasa tipleri -->
+              </select>
+            </div>
+            
+            <button id="apply-filters">Axtar</button>
+          </div>
+          
+          
+        </body>
+        </html>
+        

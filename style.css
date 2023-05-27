@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .navbar li a:hover {
+    background-color: #555;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .secondary-navbar {
+    background-color: #f5f5f5;
+    padding: 10px;
+  }
+  
+  .secondary-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .secondary-navbar li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .secondary-navbar li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .secondary-navbar li a:hover {
+    background-color: #ddd;
+  }
+  .login-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      background-color: #f44336;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .login-btn:hover {
+      background-color: #d32f2f;
+    }
+    .filters {
+        background-color: #f5f5f5;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 10px;
+      }
+      
+      .filters h3 {
+        margin-top: 0;
+        grid-column: 1 / -1;
+      }
+      
+      .filter {
+        margin-bottom: 10px;
+        grid-row: span 1;
+      }
+      
+      .filter label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      .filter select,
+      .filter input {
+        width: 100%;
+        padding: 5px;
+      }
+      
+      #apply-filters {
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      
+      #apply-filters:hover {
+        background-color: #45a049;
+      }
+      
+      @media (max-width: 768px) {
+        .filters {
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+        }
+      }
+
+      
+      
